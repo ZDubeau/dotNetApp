@@ -11,5 +11,5 @@ public class Factor {
 
     public string Status { get; set; }
 
-    public Offers Offers { get; set; }
+    public Offer Offers { get; set; }
 }
