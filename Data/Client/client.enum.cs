@@ -1,4 +1,5 @@
-enum ClientType
+
+public enum ClientType
 {
     Recurrent,
     OneShot
