@@ -1,0 +1,15 @@
+/Users/zahra/CESI/dotNetApp/bin/Debug/net5.0/dotNetApp.deps.json
+/Users/zahra/CESI/dotNetApp/bin/Debug/net5.0/dotNetApp.runtimeconfig.json
+/Users/zahra/CESI/dotNetApp/bin/Debug/net5.0/dotNetApp.runtimeconfig.dev.json
+/Users/zahra/CESI/dotNetApp/bin/Debug/net5.0/dotNetApp.dll
+/Users/zahra/CESI/dotNetApp/bin/Debug/net5.0/ref/dotNetApp.dll
+/Users/zahra/CESI/dotNetApp/bin/Debug/net5.0/dotNetApp.pdb
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.csprojAssemblyReference.cache
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.AssemblyInfoInputs.cache
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.AssemblyInfo.cs
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.csproj.CoreCompileInputs.cache
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.dll
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/ref/dotNetApp.dll
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.pdb
+/Users/zahra/CESI/dotNetApp/obj/Debug/net5.0/dotNetApp.genruntimeconfig.cache

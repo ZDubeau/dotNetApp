@@ -1,0 +1,5 @@
+enum ClientType
+{
+    Recurrent,
+    OneShot
+}
