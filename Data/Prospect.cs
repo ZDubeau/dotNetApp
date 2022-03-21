@@ -1,6 +1,8 @@
+using System;
+using System.Collections.Generic;
 
-public class Prospect {
-
+public class Prospect
+{
     public long Id { get; set; }
 
     public string Lastname { get; set; }
@@ -11,5 +13,7 @@ public class Prospect {
 
     public string Address { get; set; }
 
-    public Date ContactDate { get; set; }
+    public DateTime ContactDate { get; set; }
+
+    public List<string> ProspectList = new List<string>();
 }

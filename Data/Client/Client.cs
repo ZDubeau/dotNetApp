@@ -1,6 +1,6 @@
-    
-public class Client {
-
+using System.Collections.Generic;
+public class Client
+{
     public long Id { get; set; }
 
     public string Lastname { get; set; }
@@ -12,4 +12,6 @@ public class Client {
     public ICollection<Factor> Factors { get; set; }
 
     public ICollection<Coordinate> ClientCoordinate { get; set; }
+
+    public List<string> ClientList = new List<string>();
 }
