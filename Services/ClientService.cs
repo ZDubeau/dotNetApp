@@ -1,20 +1,23 @@
 using System;
 using System.Linq;
 
-public class ClientService
+namespace dotNetApp.Services
 {
-    Client client = new Client();
-    Prospect prospect = new Prospect();
-
-    public void RegisterNumber()
+    public class ClientService
     {
-        int total;
+        Client client = new Client();
+        Prospect prospect = new Prospect();
 
-        int numClient = client.ClientList.Count();
-        int numProspect = prospect.ProspectList.Count();
+        public void RegisterNumber()
+        {
+            int total;
 
-        total = numClient + numProspect;
+            int numClient = client.ClientList.Count();
+            int numProspect = prospect.ProspectList.Count();
 
-        Console.WriteLine(total);
+            total = numClient + numProspect;
+
+            Console.WriteLine(total);
+        }
     }
 }

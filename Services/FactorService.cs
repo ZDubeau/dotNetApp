@@ -1,20 +1,22 @@
 using System;
 
-public class FactorService
+namespace dotNetApp.Services
 {
-
-    Client client = new Client();
-    Factor factor = new Factor();
-
-    public void Payed()
+    public class FactorService
     {
-        factor.Clients.Equals(true);
-        factor.Status = "paid";
+        Client client = new Client();
+        Factor factor = new Factor();
 
-        string paid = factor.Status;
-        if (paid.Equals(true))
+        public void Payed()
         {
-            Console.WriteLine(paid);
+            factor.Clients.Equals(true);
+            factor.Status = "paid";
+
+            string paid = factor.Status;
+            if (paid.Equals(true))
+            {
+                Console.WriteLine(paid);
+            }
         }
     }
 }
