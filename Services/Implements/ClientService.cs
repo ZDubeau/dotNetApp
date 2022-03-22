@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace dotNetApp.Services
+namespace dotNetApp.Services.Implements
 {
     public class ClientService
     {

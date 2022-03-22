@@ -1,7 +1,7 @@
-namespace dotNetApp.Services
+namespace dotNetApp.Services.Interface
 {
     public interface IFactorService
     {
-        void Payed();
+        void AllPaid();
     }
 }

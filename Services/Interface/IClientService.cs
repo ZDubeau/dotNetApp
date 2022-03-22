@@ -1,4 +1,4 @@
-namespace dotNetApp.Services
+namespace dotNetApp.Services.Interface
 {
     public interface IClientService
     {
