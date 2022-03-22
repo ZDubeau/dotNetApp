@@ -424,9 +424,3 @@ obj/
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,csharp,dotnetcore
-
-#  Add .NET elements for ignore
-bin/
-Debug/
-Release/
-obj/
