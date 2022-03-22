@@ -12,8 +12,6 @@ namespace dotNetApp.Services.Implements
 
         DateTime yesterday = DateTime.Now.Date.AddDays(-1);
 
-
-
         public void TransformPtC()
         {
             if (prospect.ContactDate >= yesterday

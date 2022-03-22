@@ -11,7 +11,6 @@ namespace dotNetApp.Services.Implements
         {
             if (factor.Clients != null)
             {
-                // factor.Status = "paid";
                 string paid = factor.Status;
 
                 if (paid == "paid")
