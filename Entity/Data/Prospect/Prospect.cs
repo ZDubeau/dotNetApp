@@ -11,14 +11,14 @@ public class Prospect : IProspect
     public string Tel { get; set; }
     public string Address { get; set; }
     public DateTime ContactDate { get; set; }
-    public List<string> ProspectList = new List<string>();
+    
 
     public Offer Offers { get; set; }
 
     // Constructor
     public Prospect() { }
 
-    public Prospect(long id, string lastname, string firstname, string tel, string address, DateTime contactDate, List<string> prospectList, Offer offers)
+    public Prospect(long id, string lastname, string firstname, string tel, string address, DateTime contactDate, Offer offers)
     {
         Id = id;
         Lastname = lastname;
@@ -26,7 +26,6 @@ public class Prospect : IProspect
         Tel = tel;
         Address = address;
         ContactDate = contactDate;
-        ProspectList = prospectList;
         Offers = offers;
     }
 

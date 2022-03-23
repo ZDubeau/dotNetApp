@@ -15,12 +15,12 @@ public class Client : IClient
     public ICollection<Factor> Factors { get; set; }
 #nullable disable
     public ICollection<Coordinate> ClientCoordinate { get; set; }
-    public List<string> ClientList = new();
+    
 
     // Constructor
     public Client() { }
 
-    public Client(long id, string lastname, string firstname, ClientType clientTypes, ICollection<Factor> factors, ICollection<Coordinate> clientCoordinate, List<string> clientList)
+    public Client(long id, string lastname, string firstname, ClientType clientTypes, ICollection<Factor> factors, ICollection<Coordinate> clientCoordinate)
     {
         Id = id;
         Lastname = lastname;
@@ -28,7 +28,6 @@ public class Client : IClient
         ClientTypes = clientTypes;
         Factors = factors;
         ClientCoordinate = clientCoordinate;
-        ClientList = clientList;
     }
 
     private string GetDebuggerDisplay()
