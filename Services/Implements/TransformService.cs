@@ -2,7 +2,7 @@ using System;
 
 namespace dotNetApp.Services.Implements
 {
-    public class Transform
+    public class TransformService
     {
         Client client = new Client();
         Prospect prospect = new Prospect();
