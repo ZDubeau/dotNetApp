@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 
 [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
-public class Factor
+public class Factor : IFactor
 {
     public long Id { get; set; }
     public int Amount { get; set; }

@@ -4,16 +4,15 @@ using System.Diagnostics;
 
 [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
 #pragma warning disable CA1050 // Declare types in namespaces
-public class Client
+public class Client : IClient
+
 #pragma warning restore CA1050 // Declare types in namespaces
 {
     public long Id { get; set; }
     public string Lastname { get; set; }
     public string Firstname { get; set; }
     public ClientType ClientTypes { get; set; }
-    [DisplayFormatAttribute(NullDisplayText = "No factor")]
-#nullable enable
-    public ICollection<Factor>? Factors { get; set; }
+    public ICollection<Factor> Factors { get; set; }
 #nullable disable
     public ICollection<Coordinate> ClientCoordinate { get; set; }
     public List<string> ClientList = new();

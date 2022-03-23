@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 
 [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
-public class Offer
+public class Offer : IOffer
 {
     public long Id { get; set; }
     public string Lastname { get; set; }
