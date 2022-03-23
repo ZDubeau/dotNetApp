@@ -1,8 +1,7 @@
-﻿namespace dotNetApp.Services.Implements
+﻿namespace dotNetApp.Services.Interface
 {
     public interface ITransformService
     {
-        void AllPaid();
         void TransformPtC();
     }
 }

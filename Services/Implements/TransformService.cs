@@ -1,14 +1,17 @@
 using System;
+using System.Diagnostics;
+using dotNetApp.Services.Interface;
 
 namespace dotNetApp.Services.Implements
 {
-    public class TransformService
+    [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
+    public class TransformService : ITransformService
     {
-        Client client = new Client();
-        Prospect prospect = new Prospect();
-        Offer offer = new Offer();
-        string isAccepted = "Accepted";
-        string factorStatus = new Factor().Status;
+        readonly Client client = new();
+        readonly Prospect prospect = new();
+        readonly Offer offer = new();
+        private readonly string isAccepted = "Accepted";
+        readonly string factorStatus = new Factor().Status;
 
         DateTime yesterday = DateTime.Now.Date.AddDays(-1);
 
@@ -19,8 +22,12 @@ namespace dotNetApp.Services.Implements
                 && factorStatus == isAccepted)
             {
                 Console.WriteLine("Transform Prospect to Client");
-
             }
+        }
+
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
         }
     }
 }

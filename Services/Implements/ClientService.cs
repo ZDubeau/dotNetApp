@@ -1,23 +1,24 @@
-using System;
-using System.Linq;
+using dotNetApp.Entity.Data.Client;
+using dotNetApp.Entity.Data.Prospect;
+using dotNetApp.Services.Interface;
 
 namespace dotNetApp.Services.Implements
 {
-    public class ClientService
+    public class ClientService : IClientService
     {
-        Client client = new Client();
-        Prospect prospect = new Prospect();
+        public readonly ClientList listClient = new();
+        public readonly ProspectList listProspect = new();
 
-        public void RegisterNumber()
+        public int TotalCP()
         {
             int total;
 
-            int numClient = client.ClientList.Count();
-            int numProspect = prospect.ProspectList.Count();
+            int _client = listClient._clientList.Count;
+            int _prospect = listProspect._prospectList.Count;
 
-            total = numClient + numProspect;
+            total = _client + _prospect;
 
-            Console.WriteLine(total);
+            return total;
         }
     }
 }

@@ -7,8 +7,21 @@
 
   <ItemGroup>
     <None Remove="Data\Enum\" />
+    <None Remove="Entity\Data\" />
+    <None Remove="Entity\Data\Client\" />
+    <None Remove="Entity\Data\Enum\" />
+    <None Remove="Entity\Data\Offer\" />
+    <None Remove="Entity\Data\Prospect\" />
+    <None Remove="Entity\Interface\IOffer\" />
+    <None Remove="Entity\Interface\IProspect\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\Enum\" />
+    <Folder Include="Entity\Data\" />
+    <Folder Include="Entity\Data\Client\" />
+    <Folder Include="Entity\Data\Enum\" />
+    <Folder Include="Entity\Data\Offer\" />
+    <Folder Include="Entity\Data\Prospect\" />
+    <Folder Include="Entity\Interface\IOffer\" />
+    <Folder Include="Entity\Interface\IProspect\" />
   </ItemGroup>
 </Project>

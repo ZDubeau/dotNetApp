@@ -1,8 +1,9 @@
 using System;
+using dotNetApp.Services.Interface;
 
 namespace dotNetApp.Services.Implements
 {
-    public class FactorService
+    public class FactorService : IFactorService
     {
         Client client = new Client();
         Factor factor = new Factor();
