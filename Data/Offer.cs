@@ -1,5 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+
+[DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
 public class Offer
 {
     public long Id { get; set; }
@@ -12,4 +15,9 @@ public class Offer
 
     // Constructor
     public Offer() { }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
+    }
 }
